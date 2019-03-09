@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+        .style2
+        {
+            width: 99px;
+        }
+        .auto-style1 {
+            width: 380px;
+        }
+        .auto-style2 {
+            width: 376px;
+        }
+        .auto-style3 {
+            width: 197px;
+        }
+    </style>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        
+        <table class="style1">
+            <tr>
+                <td>
+                    <table class="style1">
+                        <tr>
+                            <td class="auto-style3" bgcolor="#FF3300">
+                                <asp:LinkButton ID="LinkButton1" runat="server" >Home</asp:LinkButton>
+                            </td>
+                            <td bgcolor="#FF3300" class="auto-style1">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<asp:LinkButton ID="LinkButton3" runat="server" >Support Us</asp:LinkButton>
+                            </td>
+                            <td bgcolor="#FF3300" class="auto-style2">
+                                <asp:LinkButton ID="LinkButton4" runat="server" >Contact Us</asp:LinkButton>
+                            </td>
+                            <td bgcolor="#FF3300">
+                                <asp:LinkButton ID="LinkButton5" runat="server" >Vision</asp:LinkButton>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            </table>
+        
+    </div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

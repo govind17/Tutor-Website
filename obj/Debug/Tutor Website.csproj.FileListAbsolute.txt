@@ -1,0 +1,5 @@
+D:\Tutor Website\bin\Debug\Tutor Website.dll
+D:\Tutor Website\bin\Debug\Tutor Website.pdb
+D:\Tutor Website\obj\Debug\Tutor Website.csprojResolveAssemblyReference.cache
+D:\Tutor Website\obj\Debug\Tutor Website.dll
+D:\Tutor Website\obj\Debug\Tutor Website.pdb
